@@ -5,6 +5,7 @@ import Demo from "./components/Demo/Demo";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+// import CardCarousel from "./components/CardCarousel/CardCarousel";                              
 import ThemeButton from "./components/ThemeButton";
 import { ThemeProvider } from "./context/ThemeMode";
 import { useEffect,useState } from "react";
@@ -31,17 +32,18 @@ function App() {
 
 
   return (
-    <ThemeProvider value={{themeMode, lightMode, darkMode}}>
+    <>
       <Navbar />
       <HeroThree />
-      <ThemeButton/>
+      {/* <CardCarousel/> */}
       {/* <hr/> */}
       <About />
       <Project />
       <Contact></Contact>
       <Footer></Footer>
+      
       {/* <Demo/> */}
-    </ThemeProvider>
+      </>
   );
 }
 

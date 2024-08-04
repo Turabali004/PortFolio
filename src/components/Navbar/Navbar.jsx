@@ -212,10 +212,10 @@ function Navbar() {
           </div>
           <div className="hidden sm:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-              <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Services</a>
+              <a href="#" className="hover:bg-gray-700 transition ease-in-out hover:-translate-y-1 delay-15 px-3 py-2 hover:scale-110 rounded-md text-sm font-medium">Home</a>
+              <a href="#" className="hover:bg-gray-700 transition ease-in-out hover:-translate-y-1 delay-15 px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="#" className="hover:bg-gray-700 transition ease-in-out hover:-translate-y-1 delay-15 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="#" className="hover:bg-gray-700 transition ease-in-out hover:-translate-y-1 delay-15 px-3 py-2 rounded-md text-sm font-medium">Services</a>
             </div>
           </div>
           <div className="-mr-2 flex sm:hidden">

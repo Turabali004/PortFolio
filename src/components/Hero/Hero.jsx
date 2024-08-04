@@ -27,7 +27,7 @@ const menuItems = [
 
 export function HeroThree() {
   return (
-    <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-full rounded-lg shadow  dark:border-gray-700">
       <div className="  px-6 pt-14 lg:px-8 ">
         <div className="relative mx-auto max-w-2xl py-24">
           <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">

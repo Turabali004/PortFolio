@@ -55,9 +55,13 @@ function Project() {
                 </h1>
                 <p>{val.description}</p>
                 <p></p>
-                <button className="py-3 bg-gradient-to-r from-teal-900 to-[#190b1f] px-6 text-white">
-                  Project1
-                </button>
+                  <button className="py-3 bg-gradient-to-r from-teal-900 to-[#190b1f] px-6 text-white">
+                    <a href="https://github.com/Turabali004/PortFolio"
+                    target="_blank">
+
+                    Project
+                    </a>
+                  </button>
               </div>
             </div>
           );
